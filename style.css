@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 0%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+    border: 0;
+    text-decoration: none;
+}
+
+.form-example {
+    padding: 20px 0;
+}
+
+.form-example p {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form-example p.description {
+    margin-bottom: 20px;
+}
+
+.form-example p.copyright {
+    margin-top: 40px;
+}
+
+.form-example .form-group {
+    text-align: left;
+}
+
+.form-example input[type="text"],
+.form-example input[type="password"] {
+    background: #fff;
+    border: 2px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    box-shadow: none;
+}
+
+.form-example input[type="text"]:focus,
+.form-example input[type="password"]:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: none;
+}
+
+.form-example input[type="text"]::-moz-placeholder,
+.form-example input[type="password"]::-moz-placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+.form-example input[type="text"]:-ms-input-placeholder,
+.form-example input[type="password"]:-ms-input-placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+.form-example input[type="text"]::-webkit-input-placeholder,
+.form-example input[type="password"]::-webkit-input-placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+.form-example button.btn-customized {
+    margin-top: 1rem;
+    padding: .75rem 1.5rem;
+    background: black;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    box-shadow: none;
+}
